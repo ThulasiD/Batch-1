@@ -38,6 +38,10 @@ public class Homeprodtpage extends Basepage {
 				return clickbtn;
 				
 			}
+
+                          public WebElement getclickbtn(){
+                          return clickbtn;
+                          }
 			
 			public int getSearchresult() {
 				return Searchresult.size();
